@@ -7,7 +7,7 @@ public class totalOddEvenSum {
         int n=sc.nextInt();
         int odd_sum=0;
         int even_sum=0;
-        while(n!=0){
+        while(n>0){
             int rem=n%10;
             n=n/10;
             if(rem%2==0){

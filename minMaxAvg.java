@@ -5,7 +5,7 @@ public class minMaxAvg {
         Scanner sc=new Scanner(System.in);
         System.out.println("How many  numbers you want?? ");
         int n=sc.nextInt();
-        int minimum=Integer.MAX_VALUE;
+        int minimum=Integer.MAX_VALUE; 
         int maximum=Integer.MIN_VALUE;
        int total=0;
         for(int i=1;i<=n;i++){

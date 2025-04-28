@@ -7,6 +7,8 @@ public class Armstrong {
         int temp;
         int last;
         temp = n;
+
+        // count the digits for do power
         while (temp > 0) {
             temp = temp / 10;
             digits++;

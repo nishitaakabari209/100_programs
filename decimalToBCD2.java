@@ -32,7 +32,7 @@ public class decimalToBCD2 {
             
         }
 
-        System.out.println("BCD value of "+num+ " is: " +bcdResult.toString().trim());
+        System.out.println("BCD value of "+num+ " is: " +bcdResult);
     }
     
 }
